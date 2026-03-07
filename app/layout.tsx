@@ -15,6 +15,9 @@ export const metadata: Metadata = {
     template: '%s | maksimprojects.space',
   },
   description: 'Personal projects and tech blog by Maksim Mironov',
+  icons: {
+    icon: '/favicon.png',
+  },
   openGraph: {
     title: 'maksimprojects.space',
     description: 'Personal projects and tech blog by Maksim Mironov',
