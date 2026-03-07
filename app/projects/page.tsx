@@ -1,3 +1,7 @@
+export const metadata = {
+  title: 'My Projects',
+}
+
 function ArrowIcon() {
   return (
     <svg
@@ -24,38 +28,44 @@ export default function Projects() {
       <p className="mb-4">
         Here are some of my personal projects hosted on GitHub. Feel free to explore and contribute!
       </p>
-      <ul className="font-sm mt-8 flex flex-col space-x-0 space-y-2">
+      <ul className="font-sm mt-8 flex flex-col space-x-0 space-y-4">
         <li>
           <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-200"
+            className="flex items-start transition-all hover:text-neutral-800 dark:hover:text-neutral-200"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://github.com/example/project1"
+            href="/blog/telegram-parser-project"
           >
-            <ArrowIcon />
-            <p className="ml-2 h-7">Project 1 - Description</p>
+            <span className="flex-shrink-0 mt-[5px]">
+              <ArrowIcon />
+            </span>
+            <p className="ml-2 leading-normal">Project 1 - Telegram channels parser for collecting data (img, txt) into a Spreashsheet table with descring via ChatGPT</p>
           </a>
         </li>
         <li>
           <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-200"
+            className="flex items-start transition-all hover:text-neutral-800 dark:hover:text-neutral-200"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://github.com/example/project2"
+            href="/blog/dear-edit-project"
           >
-            <ArrowIcon />
-            <p className="ml-2 h-7">Project 2 - Description</p>
+            <span className="flex-shrink-0 mt-[5px]">
+              <ArrowIcon />
+            </span>
+            <p className="ml-2 leading-normal">Project 2 - Dear Edit: online checker for PR and educational articles</p>
           </a>
         </li>
         <li>
           <a
-            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-200"
+            className="flex items-start transition-all hover:text-neutral-800 dark:hover:text-neutral-200"
             rel="noopener noreferrer"
             target="_blank"
-            href="https://github.com/example/project3"
+            href="/blog/chrome-extension-bookmarks"
           >
-            <ArrowIcon />
-            <p className="ml-2 h-7">Project 3 - Description</p>
+            <span className="flex-shrink-0 mt-[5px]">
+              <ArrowIcon />
+            </span>
+            <p className="ml-2 leading-normal">Project 3 - Chrome extension: storage for personal bookmarks and some services</p>
           </a>
         </li>
       </ul>

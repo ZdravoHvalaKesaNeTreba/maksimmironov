@@ -1,5 +1,9 @@
 import { BlogPosts } from 'app/components/posts'
 
+export const metadata = {
+  title: 'Home | maksimprojects.space',
+}
+
 export default function Page() {
   return (
     <section>
