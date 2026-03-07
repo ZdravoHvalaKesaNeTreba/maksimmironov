@@ -2,8 +2,9 @@
 
 Personal website and tech blog showcasing projects, articles, and experiments by Maksim Mironov.
 
-🌐 **Live**: [maksimprojects.space](https://maksimprojects.space)  
+🌐 **Live**: [maksimprojects.space](https://maksimprojects.space)
 📧 **Contact**: [Your Email]
+🇷🇺 **Русская версия**: [README.ru.md](README.ru.md)
 
 ---
 
