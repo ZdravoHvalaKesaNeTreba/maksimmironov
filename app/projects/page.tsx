@@ -68,6 +68,19 @@ export default function Projects() {
             <p className="ml-2 leading-normal">Project 3 - Chrome extension: storage for personal bookmarks and some services</p>
           </a>
         </li>
+        <li>
+          <a
+            className="flex items-start transition-all hover:text-neutral-800 dark:hover:text-neutral-200"
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://proxy.maksimprojects.space/"
+          >
+            <span className="flex-shrink-0 mt-[5px]">
+              <ArrowIcon />
+            </span>
+            <p className="ml-2 leading-normal">Project 4 - Maksim Proxy: password-protected portal that creates personal VPN keys for HAPP</p>
+          </a>
+        </li>
       </ul>
     </section>
   )
